@@ -53,7 +53,7 @@ export default function UploadPage() {
         e.preventDefault();
         handleFiles(e.dataTransfer.files);
       }}
-      className="flex flex-col items-center justify-center gap-5 h-screen border-4 border-dashed border-neutral-300 m-5"
+      className="flex flex-col items-center justify-center gap-5 h-100 border-4 border-dashed border-neutral-300 m-5"
     >
       <p className="text-xl">Drop photos here</p>
       <input
